@@ -19,7 +19,7 @@ static int reltype = REL_MISC; // 0x09
 module_param(reltype, int, 0);
 MODULE_PARM_DESC(reltype, "type of relative event to listen for");
 
-static int count_per_press = 10;
+static int count_per_press = 1;
 module_param(count_per_press, int, 0);
 MODULE_PARM_DESC(count_per_press, "event count before a press is generated");
 
