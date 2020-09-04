@@ -11,7 +11,7 @@ MODULE_DESCRIPTION("rotary encoder as volume control module");
 MODULE_ALIAS("rotary-volume");
 MODULE_LICENSE("GPL");
 
-static char *devicename = "rotary@4";
+static char *devicename = "rotary@11";
 module_param(devicename, charp, 0);
 MODULE_PARM_DESC(devicename, "name of rotary input device");
 
